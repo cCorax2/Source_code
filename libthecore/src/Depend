@@ -1,0 +1,78 @@
+buffer.o: buffer.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+des.o: des.c ../include/stdafx.h ../include/typedef.h ../include/heart.h \
+  ../include/fdwatch.h ../include/socket.h ../include/kstbl.h \
+  ../include/hangul.h ../include/buffer.h ../include/signal.h \
+  ../include/log.h ../include/main.h ../include/utils.h \
+  ../include/crypt.h ../include/memcpy.h DES_table.h
+fdwatch.o: fdwatch.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+gost.o: gost.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+gost_old.o: gost_old.c
+hangul.o: hangul.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+heart.o: heart.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+kstbl.o: kstbl.c
+log.o: log.c ../include/stdafx.h ../include/typedef.h ../include/heart.h \
+  ../include/fdwatch.h ../include/socket.h ../include/kstbl.h \
+  ../include/hangul.h ../include/buffer.h ../include/signal.h \
+  ../include/log.h ../include/main.h ../include/utils.h \
+  ../include/crypt.h ../include/memcpy.h
+main.o: main.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+memcpy.o: memcpy.c
+signal.o: signal.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+socket.o: socket.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+tea.o: tea.c ../include/stdafx.h ../include/typedef.h ../include/heart.h \
+  ../include/fdwatch.h ../include/socket.h ../include/kstbl.h \
+  ../include/hangul.h ../include/buffer.h ../include/signal.h \
+  ../include/log.h ../include/main.h ../include/utils.h \
+  ../include/crypt.h ../include/memcpy.h
+utils.o: utils.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+xdirent.o: xdirent.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+xgetopt.o: xgetopt.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h
+xmd5.o: xmd5.c ../include/stdafx.h ../include/typedef.h \
+  ../include/heart.h ../include/fdwatch.h ../include/socket.h \
+  ../include/kstbl.h ../include/hangul.h ../include/buffer.h \
+  ../include/signal.h ../include/log.h ../include/main.h \
+  ../include/utils.h ../include/crypt.h ../include/memcpy.h

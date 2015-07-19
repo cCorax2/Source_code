@@ -1,0 +1,61 @@
+BOOL	typedef.h	/^typedef int			BOOL;$/
+BUFFER	buffer.h	/^    typedef struct buffer	BUFFER;$/
+BYTE	tags	/^BYTE	typedef.h	\/^typedef unsigned char		BYTE;$\/;/
+CREATE	utils.h	/^#define CREATE(result, type, number)  do { 			\\$/
+DWORD	typedef.h	/^typedef unsigned long		DWORD;$/
+EFdwatch	fdwatch.h	/^    enum EFdwatch$/
+ENUM_PROFILER	main.h	/^    enum ENUM_PROFILER$/
+FDWATCH	fdwatch.h	/^    typedef struct fdwatch	FDWATCH;$/
+HASH	hash.h	/^    typedef struct yhash	HASH;$/
+HASHNODE	hash.h	/^    typedef struct yhash_node	HASHNODE;$/
+HEART	heart.h	/^typedef struct heart	HEART;$/
+INSERT_TO_LIST	utils.h	/^#define INSERT_TO_LIST(item, head, next)          /
+INSERT_TO_TW_LIST	utils.h	/^    \/\/ Next 와 Prev 가 있는 리스트에 추가$/
+INT	typedef.h	/^typedef int			INT;$/
+KEVENT	fdwatch.h	/^    typedef struct kevent	KEVENT;$/
+KEYT	hash.h	/^    typedef unsigned long	KEYT; $/
+KQUEUE	fdwatch.h	/^    typedef int			KQUEUE;$/
+LONG	tags	/^LONG	typedef.h	\/^typedef long			LONG;$\/;"	t$/
+LOWER	utils.h	/^#define LOWER(c)	(((c)>='A'  && (c) <= 'Z') ? ((c)/
+LPBUFFER	buffer.h	/^    typedef struct buffer *	LPBUFFER;$/
+LPFDWATCH	fdwatch.h	/^    typedef struct fdwatch *	LPFDWATCH;$/
+LPHASH	hash.h	/^    typedef struct yhash*	LPHASH;$/
+LPHASHNODE	hash.h	/^    typedef struct yhash_node*	LPHASHNODE;$/
+LPHEART	heart.h	/^typedef struct heart *	LPHEART;$/
+LPKEVENT	fdwatch.h	/^    typedef struct kevent *	LPKEVENT;$/
+MAKEFOURCC	utils.h	/^#define MAKEFOURCC(ch0, ch1, ch2, ch3)            /
+QWORD	tags	/^QWORD	typedef.h	\/^typedef unsigned long int      /
+RECREATE	utils.h	/^#define RECREATE(result,type,number) do { \\$/
+REMOVE_FROM_LIST	utils.h	/^#define REMOVE_FROM_LIST(item, head, next)        /
+REMOVE_FROM_TW_LIST	utils.h	/^#define REMOVE_FROM_TW_LIST(item, head, prev, next/
+STRNCPY	utils.h	/^#define STRNCPY(dst, src, len)          do {strncp/
+S_ISDIR	stdafx.h	/^#define S_ISDIR(m)	(m & _S_IFDIR)$/
+TOKEN	utils.h	/^#define TOKEN(string) if (!str_cmp(token_string, s/
+UBYTE	tags	/^UBYTE	typedef.h	\/^typedef unsigned char          /
+UINT	typedef.h	/^typedef unsigned int		UINT;$/
+ULONG	tags	/^ULONG	typedef.h	\/^typedef unsigned long		ULONG;$/
+UNDER	hangul.h	/^#define UNDER(str)	under_han(str)$/
+UPPER	utils.h	/^#define UPPER(c)	(((c)>='a'  && (c) <= 'z') ? ((c)/
+WORD	tags	/^WORD	typedef.h	\/^typedef unsigned short 		WORD;$/
+bool	typedef.h	/^typedef unsigned char		bool;$/
+buffer	buffer.h	/^    struct buffer$/
+core_dump	utils.h	/^#define core_dump()	core_dump_unix(__FILE__, __LIN/
+fdwatch	fdwatch.h	/^    struct fdwatch$/
+h	tags	/^__INC_LIBTHECORE_TYPEDEF_H__	typedef.h	2;"	d$/
+heart	heart.h	/^struct heart$/
+ishan	hangul.h	/^#define ishan(ch)       (((ch) & 0xE0) > 0x90)$/
+ishanalp	hangul.h	/^#define ishanalp(ch)    (isalpha(ch) || ishan(ch))/
+ishanasc	hangul.h	/^#define ishanasc(ch)    (isascii(ch) || ishan(ch))/
+isnhdigit	hangul.h	/^#define isnhdigit(ch)   (!ishan(ch) && isdigit(ch)/
+isnhspace	hangul.h	/^#define isnhspace(ch)   (!ishan(ch) && isspace(ch)/
+number	utils.h	/^    extern int		number_ex(int from, int to, char */
+pulse	heart.h	/^typedef void (*HEARTFUNC) (LPHEART heart, int puls/
+sbyte	tags	/^sbyte	typedef.h	\/^typedef signed char            /
+sh_int	typedef.h	/^typedef unsigned short		sh_int;$/
+socket_t	tags	/^socket_t	typedef.h	\/^typedef SOCKET			socket_t;$/
+sys_err	log.h	/^#define sys_err(fmt, args...)	_sys_err(__FUNCTION_/
+timespec	stdafx.h	/^struct timespec$/
+timezone	tags	/^timezone	typedef.h	\/^struct timezone $\/;"	s$/
+tmp_sys_err	log.h	/^#define tmp_sys_err(fmt) _sys_err(__FILE__, __LINE/
+yhash	hash.h	/^    struct yhash$/
+yhash_node	hash.h	/^    struct yhash_node$/
